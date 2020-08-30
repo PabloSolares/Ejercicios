@@ -1,0 +1,409 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+/*FONTS*/
+
+@font-face {
+    font-family: "title-big";
+    src: url(Fuentes/BaiJamjuree-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "title-small";
+    src: url(Fuentes/BaiJamjuree-Regular.ttf);
+}
+
+@font-face {
+    font-family: "buttons";
+    src: url(Fuentes/BaiJamjuree-Medium.ttf);
+}
+
+@font-face {
+    font-family: "title-regular";
+    src: url(Fuentes/BaiJamjuree-Regular.ttf);
+    ;
+}
+
+@font-face {
+    font-family: "titles-big";
+    src: url(Fuentes/BaiJamjuree-Regular.ttf);
+    ;
+}
+
+
+
+#clearfix {
+    clear: both;
+    float: none;
+}
+
+#header {
+    text-align: center;
+}
+
+
+#header #mountain #back {
+    width: 100%;
+}
+
+#header #mountain #logo {
+    margin-top: -140px;
+
+}
+
+#header #title h1 {
+    font-family: title-big;
+    font-size: 50px;
+    font-weight: lighter;
+    color: hsl(210, 10%, 33%);
+    margin-top: 55px;
+}
+
+#header #title p {
+    width: 700px;
+    font-family: title-small;
+    font-size: 20px;
+    margin: 0px auto;
+    color: hsl(201, 11%, 66%);
+    margin-top: 30px;
+}
+
+.cyan {
+    float: left;
+    height: 60px;
+    width: 245px;
+    background: hsl(171, 66%, 44%);
+    color: white;
+    border-radius: 30px;
+    font-family: buttons;
+    font-size: 20px;
+    border: 1px solid hsl(171, 66%, 44%);
+    cursor: pointer;
+    margin-top: 60px;
+    margin-left: 545px;
+}
+
+#buttons .cyan:hover {
+    box-shadow: 0px 0px 5px hsl(171, 66%, 44%);
+}
+
+#buttons .purple {
+    float: right;
+    height: 60px;
+    width: 245px;
+    background: hsl(233, 100%, 69%);
+    color: white;
+    border-radius: 30px;
+    font-family: buttons;
+    font-size: 20px;
+    border: 1px solid hsl(233, 100%, 69%);
+    cursor: pointer;
+    margin-top: 60px;
+    margin-right: 530px;
+}
+
+#buttons .purple:hover {
+    box-shadow: 0px 0px 5px hsl(233, 100%, 69%);
+}
+
+#content {}
+
+.titles {
+    font-family: title-regular;
+    font-size: 37px;
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.infos {
+    width: 780px;
+    font-family: title-small;
+    text-align: center;
+    font-size: 18px;
+    color: hsl(201, 11%, 66%);
+    margin: 0px auto;
+    margin-bottom: 80px;
+}
+
+#content #pc img {
+    float: left;
+    margin-left: -28px;
+}
+
+#content #articles {
+    float: right;
+    width: 47.3%;
+}
+
+#content .title {
+    font-family: title-regular;
+    color: #4C545D;
+    font-size: 26px;
+    margin-top: 70px;
+}
+
+#content .info {
+    font-family: title-small;
+    color: hsl(201, 11%, 66%);
+    width: 400px;
+    font-size: 18px;
+}
+
+#access img {
+    float: left;
+
+    margin-left: 315px;
+}
+
+
+
+
+
+#card {
+    display: grid;
+
+    grid-template-areas:
+        "cards-1 cards-2 cards-3";
+    margin: 0px auto;
+    text-align: center;
+    transition: all 300ms;
+    height: auto;
+    
+
+}
+
+#cards-1 {
+    grid-area: cards-1;
+    margin-top: -9px;
+    margin-left: 100px;
+}
+
+#cards-2 {
+    grid-area: cards-2;
+}
+
+#cards-3 {
+    grid-area: cards-3;
+    margin-right: 100px;
+}
+
+
+
+
+.cards .title {
+    font-family: title-regular;
+    color: #4C545D;
+    font-size: 24px;
+    margin-bottom: 25px;
+
+}
+
+.cards .info {
+    font-family: title-small;
+    color: hsl(201, 11%, 66%);
+
+    font-size: 16px;
+    width: 400px;
+    margin: 0px auto;
+    margin-bottom: 165px;
+
+
+}
+
+#card .card-img {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#marks {
+    margin: 0px auto;
+    text-align: center;
+    margin-left: 100px;
+
+}
+
+#marks img {
+    width: 190px;
+    margin-right: 80px;
+}
+
+
+#content #buttons .cyan {
+    margin-top: -30px;
+
+}
+
+#content #buttons .purple {
+    margin-top: -30px;
+}
+
+#footer {
+    width: 100%;
+    height: 150px;
+    background: #F5F6F8;
+    margin-top: 260px;
+}
+
+#footer #logo-footer {
+    width: 65px;
+    margin-top: 50px;
+    margin-left: 160px;
+}
+
+#footer #links {
+    display: grid;
+    margin-left: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    float: right;
+    margin-top: -70px;
+    margin-right: 600px;
+
+}
+
+#footer #links a {
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    font-family: title-small;
+    font-size: 17px;
+    margin-bottom: 25px;
+    padding-left: 150px;
+}
+
+
+#footer #links a:hover {
+    text-decoration: underline;
+    color: hsl(171, 66%, 44%);
+}
+
+
+#footer #social {
+    display: inline-flex;
+    margin-top: -85px;
+    float: right;
+    margin-right: 165px;
+    cursor: pointer;
+}
+
+#footer #social #facebook,
+#twitter,
+#instagram {
+    margin-right: 30px;
+}
+
+
+#footer #social #facebook,
+#instagram {
+    margin-top: -3px;
+}
+
+#twitter {
+    margin-top: 1px;
+
+}
+
+/*RESPONSIVE*/
+
+@media(max-width: 1403px) {
+
+
+
+    #buttons .purple {
+        float: right;
+
+        text-align: center;
+        margin-right: 345px;
+
+    }
+
+    .cyan {
+        margin-left: 345px;
+    }
+
+    #content .title {
+
+
+        margin-left: 110px;
+    }
+
+    #content .info {
+        margin-left: 110px;
+
+
+    }
+
+    #card {
+        
+        display: grid;
+        grid-template-areas: 
+        "cards-1"
+        "cards-2"
+        "cards-3";
+        text-align: center;
+        justify-items: center;
+        justify-self: center;
+        justify-content: center;
+        margin: 0px auto;
+        margin-right: 210px;
+
+    }
+
+
+
+
+    #cards-1 {
+       text-align: center;
+        
+    }
+
+    #cards-2 {
+        text-align: center;
+        padding-left: 100px;
+
+    }
+
+    #cards-3 {
+       text-align: center;
+       padding-left: 210px;
+        
+
+    }
+
+    .img1 {
+        padding-left: 110px;
+    }
+    .cards .info {
+       margin-bottom: 100px;
+    }
+
+    #marks img{
+        width: 100px;
+    }
+
+
+
+    #footer #links {
+        margin-right: 400px;
+    
+    }
+    #footer #links a{
+        font-size: 16px;
+    
+    }
+
+    #footer #logo-footer{
+        width: 40px;
+        
+        margin-left: 120px;
+    }
+    #access img {
+        
+    
+        margin-left: 165px;
+    }
+    
+}

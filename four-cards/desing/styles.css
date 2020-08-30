@@ -110,17 +110,20 @@ header{
 .card-yellow{
     border-top: 5px solid  hsl(34, 97%, 64%);
     border-radius: 5px;
-    margin-left: 230px;
-    margin-top: -252px;
+    margin: 0px auto;
+    margin-top: -105px;
+    
 }
 
 .card-light{
     border-top: 5px solid hsl(180, 62%, 55%) ;
     border-radius: 5px;
-    margin: 0px auto;
-    margin-top: -105px;
-    padding-top: 0px;
     
+    
+    margin-left: 230px;
+    margin-top: -252px;
+    
+    overflow: hidden;
    
 }
 
@@ -128,5 +131,92 @@ header{
     float: right;
     padding-right: 25px;
      
+}
+
+@media(max-width: 1403px){
+    .card-blue{
+        
+        float: right;
+        margin-right: 140px;
+        margin-top: -120px;
+    }
+    .card-light{
+       
+        
+        
+        margin-left: 140px;
+        margin-top: -252px;
+        
+        overflow: hidden;
+       
+    }
+
+}
+
+@media(max-width: 1377px){
+    .card-red{
+        margin-left: 230px;
+        
+    }
+    
+    .card-blue{
+
+        margin-right: 230px;
+        margin-top: -255px;
+        
+    }
+    
+    .card-yellow{
+        
+        float: right;
+        margin-right: 230px;
+        margin-top: -255px;
+        
+    }
+    
+    .card-light{
+        
+        
+        
+        margin-left: 230px;
+        margin-top: 100px;
+        
+        
+       
+    }
+
+}
+
+@media(max-width: 1212px){
+    .card-red{
+        margin: 0px auto;
+        margin-bottom: 40px;
+    }
+    
+    .card-blue{
+
+        margin: 0px auto;
+        float: none;
+        margin-bottom: 40px;
+    }
+    
+    .card-yellow{
+        
+        margin: 0px auto;
+        float: none;
+        margin-bottom: 40px;
+    }
+    
+    .card-light{
+        
+        
+        
+        margin: 0px auto;
+        float: none;
+        margin-bottom: 40px;
+        
+       
+    }
+
 }
 
